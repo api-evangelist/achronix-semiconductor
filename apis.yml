@@ -63,6 +63,22 @@ tags_raw:
 - Networking
 apis: []
 common:
+- type: GettingStarted
+  url: https://www.achronix.com/getting-started-achronix
+- type: SignUp
+  url: https://www.achronix.com/registration-form
+- type: Login
+  url: https://www.achronix.com/user/login
+- type: ContactUs
+  url: https://www.achronix.com/contact_us
+- type: LinkedIn
+  url: https://www.linkedin.com/company/achronix-semiconductor
+- type: Twitter
+  url: https://twitter.com/Achronixcorp
+- type: YouTube
+  url: https://www.youtube.com/user/AchronixCorp
+- type: LLMsTxt
+  url: llms/achronix-semiconductor-llms.txt
 - type: DomainSecurity
   url: security/achronix-semiconductor-domain-security.yml
 - type: Website

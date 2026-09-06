@@ -1,0 +1,65 @@
+generated: '2026-09-06'
+method: probed
+source: live GET of the named /.well-known/ path list on every host this record knows
+note: >-
+  Every named path returned 404 on every host. No document was fetched and none was
+  saved, so NO WellKnown or SecurityTxt pointer is emitted — this file records a
+  measured absence, not a served surface. Achronix runs a Drupal marketing site
+  (www.achronix.com), a Cloudflare-fronted Zendesk help center (support.achronix.com)
+  and an authenticated tool-download portal; none of them publishes a discovery
+  document. 404 bodies are the site's real 404 templates, not SPA catch-alls, and the
+  path-echo negative control also 404'd on all three hosts.
+hit_count: 0
+path_echo_control: passed
+hosts:
+- host: https://www.achronix.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/ucp.json, status: 404}
+  - {path: /.well-known/acp.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/achronix-negative-control-7f3ab91c.json, status: 404}
+- host: https://achronix.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/ucp.json, status: 404}
+  - {path: /.well-known/acp.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/achronix-negative-control-7f3ab91c.json, status: 404}
+- host: https://support.achronix.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/oauth-protected-resource, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+  - {path: /.well-known/ucp.json, status: 404}
+  - {path: /.well-known/acp.json, status: 404}
+  - {path: /.well-known/aauth-resource.json, status: 404}
+  - {path: /.well-known/agent-card.json, status: 404}
+  - {path: /.well-known/agent.json, status: 404}
+  - {path: /apis.json, status: 404}
+  - {path: /apis.yml, status: 404}
+  - {path: /.well-known/apis.json, status: 404}
+  - {path: /.well-known/achronix-negative-control-7f3ab91c.json, status: 404}
