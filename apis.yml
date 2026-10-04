@@ -48,8 +48,8 @@ tags:
 - eFPGA
 - Hardware
 - Artificial Intelligence
-- Machine-Learning
-- Data-Center
+- Machine Learning
+- Data Center
 - Networking
 tags_raw:
 - Company
@@ -61,6 +61,8 @@ tags_raw:
 - Machine Learning
 - Data Center
 - Networking
+- Machine-Learning
+- Data-Center
 apis: []
 common:
 - type: GettingStarted
