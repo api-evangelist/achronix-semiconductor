@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Achronix Semiconductor is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Achronix Semiconductor is a fabless semiconductor company specializing in high-performance FPGA (field-programmable gate array) products and embedded FPGA (eFPGA) intellectual property. Its portfolio includes the Speedster7t family of standalone FPGAs, Speedcore eFPGA IP for system-on-chip integration, VectorPath PCIe accelerator cards, and the ACE design tools suite for synthesis, verification, and optimization. Achronix technology targets AI/ML inference, 5G/6G networking, data-center compute acceleration, automotive, SmartNICs, and test-and-measurement workloads. The company is privately held and backed by investors including Battery Ventures. It exposes no public web/REST API or developer API portal; its developer surface is a hardware support portal, product documentation, datasheets, and design tools.
 
-Backed by: battery-ventures
+**Areas:** Company · Semiconductors · FPGA · eFPGA · Hardware · Artificial Intelligence · Machine Learning · Data Center · Networking
+
+## Achronix Semiconductor on APIs.io
+
+Everything profiled for Achronix Semiconductor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/achronix-semiconductor/](https://apis.io/providers/achronix-semiconductor/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Achronix Semiconductor Domain Security](https://apis.io/security/achronix-semiconductor/achronix-semiconductor-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.achronix.com)
+- [Documentation](https://www.achronix.com/support/docs)
+- [Getting started](https://www.achronix.com/getting-started-achronix)
+- [Sign up](https://www.achronix.com/registration-form)
+- [Support](https://support.achronix.com)
+- [Blog](https://www.achronix.com/company/newsroom)
+- [Terms of service](https://www.achronix.com/terms)
+- [Privacy policy](https://www.achronix.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 17.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 12.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/achronix-semiconductor/](https://apis.io/providers/achronix-semiconductor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Achronix Semiconductor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/achronix-semiconductor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
